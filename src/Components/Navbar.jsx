@@ -70,11 +70,10 @@ export function Navbar() {
         display="flex"
         gap="30px"
         // border="1px solid black"
-        justifyContent="space-between"
-      >
+        justifyContent="space-between" >
         <Box>
           <Link to="/">
-            <Image src="jioMart2.png" alt="logo" w="60%" />
+            <Image src="GenericStore1.png" alt="logo" w="60%" />
           </Link>
         </Box>
         <Box
@@ -83,12 +82,13 @@ export function Navbar() {
           gap="50px"
           justifyContent="space-around"
           // border="1px solid black"
-          alignItems="center"
-        >
+          alignItems="center">
+
           <Link>Groceries</Link>
           <Link>Fashion</Link>
           <Link>Electronics</Link>
           <Link>Jewellery</Link>
+
         </Box>
 
         <Box display="flex" alignItems="center">
